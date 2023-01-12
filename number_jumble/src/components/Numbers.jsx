@@ -9,9 +9,7 @@ function Numbers() {
     <div className='d-flex justify-content-evenly mt-3'>
     {numbers.map((number) => {
         return (
-            <Card className='grey-box'>
-                <Card.Body className='d-flex justify-content-center'>{number}</Card.Body>
-            </Card>  
+          <button className="btn btn-light d-flex justify-content-center p-3 col-2">{number}</button>
         )
     })}
     </div>
