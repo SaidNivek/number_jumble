@@ -1,5 +1,6 @@
 import './App.css';
 import GameScreen from './pages/GameScreen';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
