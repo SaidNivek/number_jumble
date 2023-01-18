@@ -23,17 +23,6 @@ function Numbers() {
     setIsActive(!isActive)
   }
 
-  const selectButton = () => {
-    selectedNumbers.forEach(key => {
-      
-    });
-    for(let key in selectedNumbers) {
-      if(!key in selectedNumbers) return 'btn btn-primary d-flex justify-content-center p-3 col-2'
-      else {return 'btn btn-light d-flex justify-content-center p-3 col-2'}
-    } 
-  }
-
-
   return (
     <div className='d-flex justify-content-evenly mt-3'>
     {numbers.map((number, index) => {
