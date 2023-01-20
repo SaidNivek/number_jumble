@@ -5,7 +5,7 @@ import Timer from './gameinfo/Timer'
 
 function GameInfo() {
   return (
-    <div className='d-flex justify-content-evenly mt-3'>
+    <div className='d-flex justify-content-evenly mt-3 col-10'>
         <CorrectNumbers />
         <Reset />
         <Timer />
