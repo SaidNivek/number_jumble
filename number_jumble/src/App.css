@@ -6,3 +6,8 @@ main {
   width: 4rem !important;
   border: 2px lightgrey solid !important;
 }
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
