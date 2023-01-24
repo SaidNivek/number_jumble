@@ -12,6 +12,7 @@ function GameScreen() {
       <GameInfo />
       <Functions />
       <Numbers />
+      <PreviousMath />
       <CurrentMath />
       <Submit />
       <p>When a unique correct answer is achieved, the game will play a jingle and/or animation, then add the variation to the # correct tracker, then reset.</p>
