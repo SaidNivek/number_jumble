@@ -11,3 +11,7 @@ a:link {
   color: white;
   text-decoration: none;
 }
+
+.carousel-item {
+  height: 50vh;
+}
