@@ -4,22 +4,22 @@ export default function RulesModal() {
     return (
         <>
             {/* <!-- Button trigger modal --> */}
-            <button type="button" className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#addClientModal">
+            <button type="button" className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#gameRulesModal">
                 <div className="d-flex align-items-center">                    
                     <div>Game Rules</div>
                 </div>
             </button>
     
             {/* <!-- Modal --> */}
-            <div className="modal fade" id="addClientModal" tabIndex="-1" aria-labelledby="addClientModalLabel" aria-hidden="true">
+            <div className="modal fade" id="gameRulesModal" tabIndex="-1" aria-labelledby="gameRulesModalLabel" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h2 className="modal-title fs-5" id="addClientModalLabel">Game Rules</h2>
+                        <h2 className="modal-title fs-5" id="gameRulesModalLabel">Game Rules</h2>
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <Carousel variant="dark" controls={false} interval={null} indicatorLabels={["Goal", "Add", "Subtract", "Split", "Other"]}>
+                        <Carousel variant="dark" interval={null} indicatorLabels={["Goal", "Add", "Subtract", "Split", "Other"]}>
                             <Carousel.Item >
                                 <div>
                                     <h3>What is the goal of the game?</h3>
@@ -40,7 +40,7 @@ export default function RulesModal() {
                                 <div>
                                     <h3>Subtracting Numbers</h3>
                                     <p>To subtract numbers, you also have to tap or click on two numbers.</p>
-                                    <p>However, since you cannot go into the negative, only numbers that are less than or equal to the first number selected can be subtracted.</p>
+                                    <p>Only numbers that are less than or equal to the first number selected can be subtracted.</p>
                                     <p>For example, if I select 5 as my 1st number and 4 as my 2nd number, the "Subtract" button will light up, as well as the "Add" button.</p>
                                     <p>By selecting the "Subtract" button, I will be left with 1.</p>
                                     <p>If I choose 4 as my 1st number and 5 as my 2nd number, that would leave me with -1, which is not allowed.</p>
