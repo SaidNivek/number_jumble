@@ -13,5 +13,10 @@ a:link {
 }
 
 .carousel-item {
-  height: 50vh;
+  height: 80vh;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  position: relative;
+  bottom: -44%;
 }
