@@ -4,7 +4,7 @@ import { TfiSplitH } from 'react-icons/tfi'
 
 function SplitFunction() {
   return (
-    <Card style={{minWidth:'3rem', border:'2px lightgrey solid'}}>
+    <Card style={{minWidth:'5rem', border:'2px lightgrey solid'}}>
         <Card.Body className='d-flex justify-content-center'><TfiSplitH /></Card.Body>
     </Card>
   )
