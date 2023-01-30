@@ -4,7 +4,7 @@ import { FaPlus } from 'react-icons/fa'
 
 function AddFunction() {
   return (
-    <Card style={{minWidth:'3rem', border:'2px lightgrey solid'}}>
+    <Card style={{minWidth:'5rem', border:'2px lightgrey solid'}}>
         <Card.Body className='d-flex justify-content-center align-items-center'><FaPlus /></Card.Body>
     </Card>
   )
