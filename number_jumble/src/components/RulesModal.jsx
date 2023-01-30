@@ -44,7 +44,6 @@ export default function RulesModal() {
                                     <p>For example, if I select 5 as my 1st number and 4 as my 2nd number, the "Subtract" button will light up, as well as the "Add" button.</p>
                                     <p>By selecting the "Subtract" button, I will be left with 1.</p>
                                     <p>If I choose 4 as my 1st number and 5 as my 2nd number, that would leave me with -1, which is not allowed.</p>
-                                    <p>In this case, only the "Add" button will light up.</p>
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
