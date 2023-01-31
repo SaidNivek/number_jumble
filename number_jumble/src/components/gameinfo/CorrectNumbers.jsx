@@ -3,9 +3,12 @@ import Card from 'react-bootstrap/Card'
 
 function CorrectNumbers() {
   return (
-    <Card style={{width:'8rem', border:'2px grey solid', backgroundColor:'lightgreen'}}>
-        <Card.Body className='d-flex justify-content-center'># Correct</Card.Body>
-    </Card>
+    <div>
+      <h5>Correct</h5>
+      <Card className="m-1" style={{minWidth:'2rem', border:'2px grey solid', backgroundColor:'lightgreen'}}>
+          <Card.Body className='d-flex justify-content-center'>Correct</Card.Body>
+      </Card>
+    </div>
   )
 }
 
