@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card'
 
 function Reset() {
   return (
-    <div>
+    <div className="d-flex flex-column align-items-center justify-content-center">
       <h5>Reset</h5>
       <Card className="m-1" style={{minWidth:'2rem', border:'2px grey solid', backgroundColor: 'yellow'}}>
           <Card.Body className='d-flex justify-content-center'>Reset</Card.Body>
